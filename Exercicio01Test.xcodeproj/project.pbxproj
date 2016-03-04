@@ -13,6 +13,14 @@
 		3AE000081C84CE930066B3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE000061C84CE930066B3B2 /* LaunchScreen.storyboard */; };
 		3AE000131C84CE930066B3B2 /* Exercicio01TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000121C84CE930066B3B2 /* Exercicio01TestTests.swift */; };
 		3AE0001E1C84CE930066B3B2 /* Exercicio01TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0001D1C84CE930066B3B2 /* Exercicio01TestUITests.swift */; };
+		3AE0002C1C86143B0066B3B2 /* Trainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0002B1C86143B0066B3B2 /* Trainer.swift */; };
+		3AE0002E1C862AEF0066B3B2 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0002D1C862AEF0066B3B2 /* Pokemon.swift */; };
+		3AE000331C876CF10066B3B2 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000321C876CF10066B3B2 /* AccountManager.swift */; };
+		3AE000341C876CF10066B3B2 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000321C876CF10066B3B2 /* AccountManager.swift */; };
+		3AE000351C876CF10066B3B2 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000321C876CF10066B3B2 /* AccountManager.swift */; };
+		3AE000371C876DC00066B3B2 /* TrainerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000361C876DC00066B3B2 /* TrainerTest.swift */; };
+		3AE000391C8773D90066B3B2 /* AccountManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE000381C8773D90066B3B2 /* AccountManagerTest.swift */; };
+		3AE0003B1C88CA4C0066B3B2 /* JsonReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0003A1C88CA4C0066B3B2 /* JsonReturn.swift */; };
 		3AE0FFFB1C84CE930066B3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0FFFA1C84CE930066B3B2 /* AppDelegate.swift */; };
 		3AE0FFFD1C84CE930066B3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0FFFC1C84CE930066B3B2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +53,12 @@
 		3AE000191C84CE930066B3B2 /* Exercicio01TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Exercicio01TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE0001D1C84CE930066B3B2 /* Exercicio01TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercicio01TestUITests.swift; sourceTree = "<group>"; };
 		3AE0001F1C84CE930066B3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE0002B1C86143B0066B3B2 /* Trainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trainer.swift; sourceTree = "<group>"; };
+		3AE0002D1C862AEF0066B3B2 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3AE000321C876CF10066B3B2 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		3AE000361C876DC00066B3B2 /* TrainerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerTest.swift; sourceTree = "<group>"; };
+		3AE000381C8773D90066B3B2 /* AccountManagerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagerTest.swift; sourceTree = "<group>"; };
+		3AE0003A1C88CA4C0066B3B2 /* JsonReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonReturn.swift; sourceTree = "<group>"; };
 		3AE0FFF71C84CE930066B3B2 /* Exercicio01Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercicio01Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE0FFFA1C84CE930066B3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE0FFFC1C84CE930066B3B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				3AE000121C84CE930066B3B2 /* Exercicio01TestTests.swift */,
+				3AE000381C8773D90066B3B2 /* AccountManagerTest.swift */,
+				3AE000361C876DC00066B3B2 /* TrainerTest.swift */,
 				3AE000141C84CE930066B3B2 /* Info.plist */,
 			);
 			path = Exercicio01TestTests;
@@ -92,6 +108,16 @@
 				3AE0001F1C84CE930066B3B2 /* Info.plist */,
 			);
 			path = Exercicio01TestUITests;
+			sourceTree = "<group>";
+		};
+		3AE0002F1C862BD10066B3B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AE0003A1C88CA4C0066B3B2 /* JsonReturn.swift */,
+				3AE0002D1C862AEF0066B3B2 /* Pokemon.swift */,
+				3AE0002B1C86143B0066B3B2 /* Trainer.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		3AE0FFEE1C84CE930066B3B2 = {
@@ -117,6 +143,8 @@
 		3AE0FFF91C84CE930066B3B2 /* Exercicio01Test */ = {
 			isa = PBXGroup;
 			children = (
+				3AE0002F1C862BD10066B3B2 /* Model */,
+				3AE000321C876CF10066B3B2 /* AccountManager.swift */,
 				3AE0FFFA1C84CE930066B3B2 /* AppDelegate.swift */,
 				3AE0FFFC1C84CE930066B3B2 /* ViewController.swift */,
 				3AE0FFFE1C84CE930066B3B2 /* Main.storyboard */,
@@ -259,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE000371C876DC00066B3B2 /* TrainerTest.swift in Sources */,
 				3AE000131C84CE930066B3B2 /* Exercicio01TestTests.swift in Sources */,
+				3AE000341C876CF10066B3B2 /* AccountManager.swift in Sources */,
+				3AE000391C8773D90066B3B2 /* AccountManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE0001E1C84CE930066B3B2 /* Exercicio01TestUITests.swift in Sources */,
+				3AE000351C876CF10066B3B2 /* AccountManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE0002E1C862AEF0066B3B2 /* Pokemon.swift in Sources */,
 				3AE0FFFD1C84CE930066B3B2 /* ViewController.swift in Sources */,
+				3AE0002C1C86143B0066B3B2 /* Trainer.swift in Sources */,
+				3AE0003B1C88CA4C0066B3B2 /* JsonReturn.swift in Sources */,
 				3AE000031C84CE930066B3B2 /* Exercicio01Test.xcdatamodeld in Sources */,
 				3AE0FFFB1C84CE930066B3B2 /* AppDelegate.swift in Sources */,
+				3AE000331C876CF10066B3B2 /* AccountManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +515,7 @@
 				3AE000241C84CE930066B3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE000251C84CE930066B3B2 /* Build configuration list for PBXNativeTarget "Exercicio01TestTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +524,7 @@
 				3AE000271C84CE930066B3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE000281C84CE930066B3B2 /* Build configuration list for PBXNativeTarget "Exercicio01TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +533,7 @@
 				3AE0002A1C84CE930066B3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE0FFF21C84CE930066B3B2 /* Build configuration list for PBXProject "Exercicio01Test" */ = {
 			isa = XCConfigurationList;

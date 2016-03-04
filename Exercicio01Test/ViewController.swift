@@ -25,26 +25,9 @@ class ViewController: UIViewController {
 
     @IBAction func btnLoginTouch(sender: AnyObject) {
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://server03.local:60080/login?user=\(txtUser.text!)&password=\(txtPassword.text!)")!)
-        request.HTTPMethod = "GET"
-        let postString = "user=\(txtUser.text!)&password=\(txtPassword.text!)"
-        print(postString)
-        //request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
-        let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { data, response, error in
-            guard error == nil && data != nil else {                                                          // check for fundamental networking error
-                print("error=\(error)")
-                return
-            }
-            
-            if let httpStatus = response as? NSHTTPURLResponse where httpStatus.statusCode != 200 {           // check for http errors
-                print("statusCode should be 200, but is \(httpStatus.statusCode)")
-                print("response = \(response)")
-            }
-            
-            let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-            print("responseString = \(responseString)")
-        }
-        task.resume()
+        
+        
+        
         
     }
     
@@ -72,8 +55,8 @@ class ViewController: UIViewController {
     }
     
     func animateViewMoving (up:Bool, moveValue :CGFloat){
-        var movementDuration:NSTimeInterval = 0.3
-        var movement:CGFloat = ( up ? -moveValue : moveValue)
+        let movementDuration:NSTimeInterval = 0.3
+        let movement:CGFloat = ( up ? -moveValue : moveValue)
         UIView.beginAnimations( "animateView", context: nil)
         UIView.setAnimationBeginsFromCurrentState(true)
         UIView.setAnimationDuration(movementDuration )
