@@ -31,6 +31,11 @@ class Exercicio01TestUITests: XCTestCase {
         xlzrfevImage.tap()
         app.buttons["Login"].tap()
         xlzrfevImage.tap()
+        
+        app.textFields["User"].tap()
+        app.buttons["Return"].tap()
+    
+        
     }
     
     override func tearDown() {
