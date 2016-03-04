@@ -21,6 +21,16 @@ class Exercicio01TestUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        
+        let app = XCUIApplication()
+        app.textFields["User"].tap()
+        
+        let xlzrfevImage = app.images["xLZrFev"]
+        xlzrfevImage.tap()
+        app.textFields["Passoword"].tap()
+        xlzrfevImage.tap()
+        app.buttons["Login"].tap()
+        xlzrfevImage.tap()
     }
     
     override func tearDown() {
